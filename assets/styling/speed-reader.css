@@ -1,0 +1,20 @@
+
+.player {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px blue;
+    flex-grow: 4;
+}
+
+.player-controls {
+    display: flex;
+    flex-direction: row;
+    /* border: solid 1px blue; */
+    flex-grow: 1;
+}
+
+.buttonControls {
+    display: flex;
+    flex-direction: row;
+    /* border: solid 1px green; */
+}
