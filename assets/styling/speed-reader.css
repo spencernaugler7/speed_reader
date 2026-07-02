@@ -1,23 +1,28 @@
-.player {
+#player {
+    margin: 0;
     display: flex;
     flex-direction: column;
-    border: solid 1px blue;
-    flex-grow: 4;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
 }
 
-.player-controls {
+.flex-col {
     display: flex;
-    flex-direction: row;
-    /* border: solid 1px blue; */
-    flex-grow: 1;
+    flex-direction: column;
+    gap: 4px;
 }
 
 .reader {
     display: flex;
 }
 
-.buttonControls {
+.player-button {
+    border-radius: 50%;
+}
+
+.flex-row {
     display: flex;
     flex-direction: row;
-    /* border: solid 1px green; */
+    gap: 4px;
 }
